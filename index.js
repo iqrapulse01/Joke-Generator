@@ -2,7 +2,7 @@ const btnEl = document.querySelector(".btn");
 const jokeEl = document.querySelector(".joke");
 const categoryEl = document.querySelector(".category");
 
-var URL = "https://v2.jokeapi.dev/joke/Programming?type=single&amount=1";
+var URL = "https://v2.jokeapi.dev/joke/programming?type=single&amount=1";
 
 btnEl.addEventListener("click",getMethod);
 
